@@ -41,7 +41,7 @@ const roleComponents = {
     // <Col xs={12} md={4}>
     //   <StatisticPoint />
     // </Col>,
-    <Col xs={12}>
+    <Col xs={12} key={'123'}>
       <OrderTable type={OrderTableType.Waiting} showFilter={false} />
     </Col>,
   ],
